@@ -1,0 +1,22 @@
+version: '3.3'
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: password
+      PGDATA: /data/postgres
+      POSTGRES_DB: socialoauthdb
+    ports:
+      # <Port exposed> : <MySQL Port running inside container>
+      - '5332:5432'
+    expose:
+      # Opens port 3306 on the container
+      - '5432'
+      # Where our data will be persisted
+    volumes:
+      - oauth-db:/var/lib/postgres
+# Names our volume
+volumes:
+  oauth-db:
