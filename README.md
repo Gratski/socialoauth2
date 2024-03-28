@@ -1,6 +1,9 @@
 # Social OAuth2 Client
 ### Updated to be fully working for Web and Mobile clients using **Java 17** and SpringBoot 3.2.3.
 
+### Buy me a ☕ if you find this useful: [Coffee Shop Link](https://patreon.com/user?u=83113769&utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
+### Feel free to drop me a message in any case 🍿
+
 This project uses a PostgreSQL Database to store the new users and update the information of the already existing ones.<br/>
 **RECOMMENDATION: Start by configuring the Github OAuth2 Client. It's the most straight forward one.**<br/>
 **SUGGESTION: If you need a public and free https connection for testing purposes you can use: https://ngrok.com/ (mandatory for Facebook)**<br/>
