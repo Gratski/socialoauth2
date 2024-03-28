@@ -1,7 +1,7 @@
 # Social OAuth2 Client
 ### Updated to be fully working for Web and Mobile clients using **Java 17** and SpringBoot 3.2.3.
 
-### Buy me a ☕ if you find this useful: [Coffee Shop Link](https://patreon.com/user?u=83113769&utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
+### Buy me a ☕ if you find this useful: [Coffee Shop Link](https://www.patreon.com/user/shop/high-quality-expresso-166017?u=83113769&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=productshare_creator&utm_content=join_link)
 ### Feel free to drop me a message in any case 🍿
 
 This project uses a PostgreSQL Database to store the new users and update the information of the already existing ones.<br/>
